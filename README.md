@@ -1,29 +1,14 @@
-# React + TypeScript + Vite
+# A mern stack application
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+### Just finish the front-end page part in 29/02/2024
 
-Currently, two official plugins are available:
+The front-end page is built with React, and the back-end is built with Node.js, Express, and MongoDB. Here is the [course](https://www.udemy.com/course/react-nodejs-express-mongodb-the-mern-fullstack-guide/learn/). In the course, I learned how to build a full-stack application with the MERN stack. The application is a simple social media app that allows users to post interesting places and modify their posts. The app has a login and register page, and the user can only modify their posts after they log in. The app also has a map page that shows all the interesting places that users have posted.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+Rather than using JavaScript, I used TypeScript to build the front-end page.
 
-## Expanding the ESLint configuration
+## The front-end page
 
-If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
+### Technical Stacks
 
-- Configure the top-level `parserOptions` property like this:
-
-```js
-export default {
-  // other rules...
-  parserOptions: {
-    ecmaVersion: "latest",
-    sourceType: "module",
-
-    project: ["./tsconfig.json", "./tsconfig.node.json"],
-    tsconfigRootDir: __dirname,
-  },
-};
-```
-
-- Replace `plugin:@typescript-eslint/recommended` to `plugin:@typescript-eslint/recommended-type-checked` or `plugin:@typescript-eslint/strict-type-checked` - Optionally add `plugin:@typescript-eslint/stylistic-type-checked` - Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and add `plugin:react/recommended` & `plugin:react/jsx-runtime` to the `extends` list
+- React
+- TypeScript
